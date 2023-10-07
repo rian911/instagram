@@ -1,0 +1,30 @@
+.post img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+.profile-post img {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-post,
+.profile-post .image {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action,
+.left {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.left img,
+.right img {
+  width: 30px;
+  height: 30px;
+}
