@@ -7,6 +7,9 @@
   width: 40px;
   height: 40px;
 }
+.post {
+  width: 300px;
+}
 
 .profile-post,
 .profile-post .image {
@@ -27,4 +30,16 @@
 .right img {
   width: 30px;
   height: 30px;
+}
+
+.desc {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.desc p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
