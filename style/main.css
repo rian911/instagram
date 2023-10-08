@@ -34,13 +34,18 @@ p {
   column-gap: 20px;
 }
 .story-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 1;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, red, orange);
+  padding: 4px;
 }
-.border-image {
+.story-item div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .border-image {
   content: '';
   width: 70px;
   height: 70px;
@@ -49,10 +54,4 @@ p {
   border: 5px solid transparent;
   background: linear-gradient(to top right, red, blue) padding-box,
     linear-gradient(to top right, red, blue) border-box;
-}
-
-.post img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-}
+} */
