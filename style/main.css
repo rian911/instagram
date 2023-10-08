@@ -11,6 +11,7 @@ p {
   justify-content: center;
   column-gap: 20px;
   padding-top: 40px;
+  margin-left: 300px;
 }
 .mid-section {
   display: flex;
@@ -20,12 +21,12 @@ p {
   justify-content: center;
 }
 .right-section {
-  width: 200px;
-  background-color: rgb(203, 203, 203);
+  width: 250px;
   display: flex;
   flex-direction: column;
   row-gap: 40px;
   padding: 10px;
+  padding-left: 40px;
 }
 
 .story-item img {

@@ -65,9 +65,10 @@
   margin-left: auto;
 }
 
-.sugested {
+.suggested {
   display: flex;
   flex-direction: column;
+  row-gap: 10px;
 }
 .list-item {
   display: flex;
