@@ -51,3 +51,29 @@
 .profile-logo {
   border-radius: 50%;
 }
+.right-section img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.your-profile {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.your-profile div:last-child {
+  margin-left: auto;
+}
+
+.sugested {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.list-item div:last-child {
+  margin-left: auto;
+}

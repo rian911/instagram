@@ -6,19 +6,26 @@
 .profile-post img {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 .post {
   width: 300px;
   padding: 5px;
-  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  background-color: rgb(245, 245, 245);
 }
 
 .profile-post,
 .profile-post .image {
-  background-color: antiquewhite;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 10px;
+}
+.profile-post {
+  padding-left: 10px;
 }
 
 .action,
@@ -29,7 +36,8 @@
 }
 
 .left img,
-.right img {
+.right img,
+.more-menu img {
   width: 20px;
   height: 20px;
 }
